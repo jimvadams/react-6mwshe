@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './Navigation.module.css';
 
-const Navigation = (props) => {
+const Navigation = props => {
   return (
     <nav className={classes.nav}>
       <ul>
@@ -13,7 +13,7 @@ const Navigation = (props) => {
         )}
         {props.isLoggedIn && (
           <li>
-            <a href="/">Admin</a>
+            <a href="/">Admin</a> 
           </li>
         )}
         {props.isLoggedIn && (
